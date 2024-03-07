@@ -33,8 +33,9 @@ const [fontsLoaded] =  useFonts({
     setGameIsOver(false)
   }
 
-  function gameOverHandler(){
-    setGameIsOver(true)
+  function gameOverHandler(numberOfRounds){
+    setGameIsOver(true);
+    setGuessRounds(numberOfRounds)
   }
 
   function startNewGameHandler() {
