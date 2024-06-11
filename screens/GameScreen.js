@@ -8,6 +8,8 @@ import {
 } from 'react-native';
 import { Ionicons } from '@expo/vector-icons';
 
+//? useWindowDimensions - це хук, який повертає об'єкт з властивостями width та height, які представляють ширину та висоту вікна відповідно.
+
 import NumberContainer from '../components/game/NumberContainer';
 import Card from '../components/ui/Card';
 import InstructionText from '../components/ui/InstructionText';
